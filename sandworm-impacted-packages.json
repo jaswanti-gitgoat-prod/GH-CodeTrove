@@ -1,0 +1,32 @@
+{
+  "_comment": "Packages identified as impacted or compromised during SANDWORM_MODE supply chain analysis",
+  "name": "sandworm-affected-app",
+  "version": "1.0.0",
+  "description": "Application with packages impacted by SANDWORM_MODE supply chain attack vectors",
+  "dependencies": {
+    "event-stream": "3.3.6",
+    "flatmap-stream": "0.1.1",
+    "ua-parser-js": "0.7.29",
+    "coa": "2.0.3",
+    "rc": "1.2.8",
+    "node-ipc": "10.1.1",
+    "colors": "1.4.44-liberty-2",
+    "faker": "6.6.6",
+    "lodash": "4.17.15",
+    "minimist": "0.2.0",
+    "ansi-regex": "3.0.0",
+    "glob-parent": "5.1.1",
+    "path-parse": "1.0.6",
+    "tar": "4.4.13",
+    "ssri": "6.0.1",
+    "y18n": "4.0.0",
+    "axios": "0.21.1",
+    "shell-quote": "1.7.2",
+    "netmask": "1.0.6",
+    "hosted-git-info": "2.8.8"
+  },
+  "devDependencies": {
+    "mocha": "8.0.1",
+    "eslint": "7.0.0"
+  }
+}
