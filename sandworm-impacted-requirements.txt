@@ -1,0 +1,22 @@
+# Python packages impacted by SANDWORM_MODE supply chain attack vectors
+
+# Malicious packages published to PyPI
+ctx==0.1.2
+# Typosquatting / dependency confusion packages
+loguru==0.5.3
+pymafka==0.2
+# Packages with known vulnerabilities exploited in supply chain attacks
+Pillow==8.1.2
+urllib3==1.24.2
+cryptography==2.2.2
+PyYAML==5.1
+lxml==4.2.5
+requests==2.19.1
+paramiko==2.4.2
+Twisted==19.2.1
+Django==2.1.7
+Flask==0.12.4
+Werkzeug==0.15.3
+Jinja2==2.10.1
+sqlalchemy==1.3.3
+celery==4.3.0
